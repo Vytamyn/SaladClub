@@ -4,3 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
+
+.frame {
+  display: flex;
+  justify-content: center;
+  border: 5px solid red;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+}
