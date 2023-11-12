@@ -24,13 +24,11 @@ function Login() {
               Please enter your details below to sign in
             </p>
             <div className="email-password">
-              <div className="input-field-text">
-                <p>Your email address</p>
-              </div>
+              <p className="input-field-text">Your email address</p>
               <input></input>
               <div className="pw-field">
-                <p>Your password</p>
-                <p className="font-gray">Forgot password?</p>
+                <p className="input-field-text">Your password</p>
+                <p className="font-gray input-field-text">Forgot password?</p>
               </div>
               <input></input>
             </div>
