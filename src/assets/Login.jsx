@@ -1,5 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import "./Login.css";
-import loginImage from "../img/scloginImage.png";
 import sclogowhite from "../img/sclogowhite.png";
 
 function Login() {
@@ -34,7 +35,9 @@ function Login() {
             </div>
           </div>
           <div className="login-button">
-            <button className="button-green">Sign in to admin</button>
+            <Link to="/dashboard" className="button-green">
+              Sign in to admin
+            </Link>
           </div>
         </div>
       </div>
