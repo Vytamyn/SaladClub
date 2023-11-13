@@ -26,12 +26,16 @@ function Login() {
             </p>
             <div className="email-password">
               <p className="input-field-text">Your email address</p>
-              <input></input>
+              <input
+                type="email"
+                placeholder="admin@admin.com"
+                required
+              ></input>
               <div className="pw-field">
                 <p className="input-field-text">Your password</p>
                 <p className="font-gray input-field-text">Forgot password?</p>
               </div>
-              <input></input>
+              <input type="password" placeholder="•••••" required></input>
             </div>
           </div>
           <div className="login-button">
