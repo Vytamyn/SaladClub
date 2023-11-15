@@ -18,6 +18,16 @@ h1 {
   color: #CDCDCD;
 }
 
+.main-frame {
+  display: flex;
+  width: 80%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin: auto;
+  background-color: #F1F1F1;
+  border-radius: 32px;
+}
+
 .frame {
   display: flex;
   justify-content: center;

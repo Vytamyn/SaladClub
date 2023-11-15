@@ -1,7 +1,10 @@
+import Sidebar from "./sidebar";
+import "./dashboard.css";
+
 function Dashboard() {
   return (
-    <div>
-      <h1>Hello Dashboard!</h1>
+    <div className="main-frame">
+      <Sidebar />
     </div>
   );
 }
