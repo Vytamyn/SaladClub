@@ -53,6 +53,8 @@ h1 {
   user-select: none;
   vertical-align: middle;
   border: none;
+  display: flex;
+  align-items: center;
 }
 
 .button-green {
@@ -68,6 +70,8 @@ h1 {
   user-select: none;
   vertical-align: middle;
   border: none;
+  display: flex;
+  align-items: center;
 }
 
 input {
