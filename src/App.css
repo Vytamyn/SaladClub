@@ -26,6 +26,7 @@ h1 {
   margin: auto;
   background-color: #F1F1F1;
   border-radius: 32px;
+
 }
 
 .frame {
@@ -80,4 +81,21 @@ input {
   border: 1.5px solid #CDCDCD ;
   border-radius: 4px;
   height: 40px;
+}
+
+.button-bordered {
+  background-color: none;
+  border: 1px solid #2e2e2e;
+  border-radius: 8px;
+  color: #2e2e2e;
+  cursor: pointer;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 12px;
+  position: relative;
+  user-select: none;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }

@@ -1,0 +1,10 @@
+.mainsearch {
+    display: flex;
+    width: 100%;
+
+}
+
+.secondary-frame {
+    display: flex;
+    flex-direction: column;
+}

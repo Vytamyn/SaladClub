@@ -1,5 +1,29 @@
+.topBar {
+    display: flex;
+    width: 100%;
+    margin: 40px 0 32px 32px;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
 .search {
     display: flex;
-    width: 544px;
-    margin: 40px 0 32px 32px;
+    justify-content: first start;
+    width: 50%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #2e2e2e;
+    border-radius: none;
+}
+
+.exportCSV {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.status {
+    margin-right: 8px;
 }
