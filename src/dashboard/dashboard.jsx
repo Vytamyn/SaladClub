@@ -2,6 +2,7 @@ import Sidebar from "./sidebar";
 import "./dashboard.css";
 import Search from "./search";
 import Sales from "./sales";
+import Orders from "./orders";
 
 function Dashboard() {
   return (
@@ -11,8 +12,9 @@ function Dashboard() {
         <div className="mainsearch">
           <Search />
         </div>
-        <div className="chart">
+        <div className="left-side">
           <Sales />
+          <Orders />
         </div>
       </div>
     </div>

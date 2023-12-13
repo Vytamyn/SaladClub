@@ -1,5 +1,9 @@
 .searchbar {
     display: flex;
-    width: 50%;
     height: 24px;
+    width: 544px;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid #2c2c2c;
+    background: none;
 }

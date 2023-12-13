@@ -1,7 +1,7 @@
-.dashboard-sales {
+.dashboard-orders {
     display: flex;
     width: 544px;
-    height: 217px;
+    height: 367px;
     background-color: white;
-    margin-left: 32px;
+    margin: 32px;
 }

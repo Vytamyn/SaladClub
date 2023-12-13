@@ -7,8 +7,10 @@ function Search() {
   return (
     <div className="topBar">
       <SearchBar />
-      <p className="status">Today's status:</p>
-      <button className="button-bordered">Export CVS</button>
+      <div className="todays-status">
+        <p className="status">Today's status:</p>
+        <button className="button-bordered">Export CVS</button>
+      </div>
     </div>
   );
 }

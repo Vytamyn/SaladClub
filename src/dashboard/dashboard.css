@@ -1,10 +1,18 @@
 .mainsearch {
     display: flex;
-    width: 100%;
-
+    justify-content: space-between;
 }
 
 .secondary-frame {
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.left-side {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    width: 544px;
+    border-left: 32px;
 }

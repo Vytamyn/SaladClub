@@ -3,8 +3,8 @@ import "./sales.css";
 
 function Sales() {
   return (
-    <div className="sales">
-      <div>Chart</div>
+    <div className="dashboard-sales">
+      <div>Sales</div>
     </div>
   );
 }
