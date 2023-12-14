@@ -1,0 +1,7 @@
+.current-offer {
+    display: flex;
+    width: 352px;
+    height: 181px;
+    background-color: white;
+    border-radius: 8px;
+}

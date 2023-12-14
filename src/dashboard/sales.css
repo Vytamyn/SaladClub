@@ -4,4 +4,39 @@
     height: 217px;
     background-color: white;
     margin-left: 32px;
+    border-radius: 8px;
+    justify-content: start;
+}
+
+.sales-container {
+    display: flex;
+    margin: 24px;
+    height: 24px;
+    width: 159px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select {
+    display: flex;
+    width: 91px;
+    height: 24px;
+    border-radius: 8px;
+    border-color: #D9D9D9;
+    color: #949494;
+    font-size: 12px;
+}
+
+.today-graph {
+    display: flex;
+    margin-left: 24px;
+    width: 308px;
+}
+
+.sales-left {
+    width: 356px;
+}
+
+.sales-right {
+    flex-direction: column;
 }

@@ -1,0 +1,8 @@
+.dashboard-map {
+    display: flex;
+    width: 352px;
+    height: 120px;
+    background-color: white;
+    margin-top: 32px;
+    border-radius: 8px;
+}

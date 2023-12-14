@@ -1,0 +1,8 @@
+.dashboard-drivers {
+    display: flex;
+    background-color: white;
+    width: 352px;
+    height: 251px;
+    margin-top: 32px;
+    border-radius: 8px;
+}

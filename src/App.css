@@ -10,6 +10,12 @@ h1 {
   font-size: 26px;
 }
 
+h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0.1px;
+}
+
 .font-black {
   color: #2e2e2e;
 }
@@ -21,6 +27,7 @@ h1 {
 .main-frame {
   display: flex;
   max-height: 750px;
+  width: 1184px;
   margin-top: 10%;
   margin-bottom: 10%;
   margin: auto;
