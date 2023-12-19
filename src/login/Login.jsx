@@ -19,7 +19,6 @@ const Login = () => {
   });
 
   const onSubmit = (values, { setSubmitting }) => {
-    // Prevent the default form submission
     setSubmitting(true);
 
     validationSchema
@@ -32,7 +31,6 @@ const Login = () => {
         }, 400);
       })
       .catch((errors) => {
-        // Handle errors (if needed)
         console.error(errors);
         setSubmitting(false);
       });
@@ -69,7 +67,7 @@ const Login = () => {
                   <Field
                     type="email"
                     name="email"
-                    placeholder="admin@admin.com"
+                    placeholder="E-mail"
                     className={`${
                       errors.email && touched.email ? "error-field" : ""
                     }`}
@@ -84,7 +82,7 @@ const Login = () => {
                   <Field
                     type="password"
                     name="password"
-                    placeholder="•••••"
+                    placeholder="Password"
                     className={`${
                       errors.password && touched.password ? "error-field" : ""
                     }`}

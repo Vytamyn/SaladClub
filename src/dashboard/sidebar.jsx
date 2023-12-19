@@ -33,8 +33,7 @@ function Sidebar() {
         </ul>
       </div>
       <div className="sidebar-report">
-        <p>Done for the day?</p>
-
+        <p className="p-center">Done for the day?</p>
         <button className="button-green">
           <img
             src={sendlogo}
