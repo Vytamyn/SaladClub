@@ -55,7 +55,7 @@ function Sales() {
           <img src={upChartIcon} alt="upChartIcon" className="upChartIcon" />
           <div className="sales-text">
             <h2>$ 5128</h2>
-            <p className="p-grey">Sales Today</p>
+            <p className="p-gray">Sales Today</p>
           </div>
         </div>
         <div className="sales-data">
@@ -66,14 +66,14 @@ function Sales() {
           />
           <div className="sales-text">
             <h2>$ 28 843</h2>
-            <p className="p-grey">Sales This Month</p>
+            <p className="p-gray">Sales This Month</p>
           </div>
         </div>
         <div className="sales-data">
           <img src={upChartIcon} alt="upChartIcon" className="upChartIcon" />
           <div className="sales-text">
             <h2>$ 268 012</h2>
-            <p className="p-grey">Sales This Year</p>
+            <p className="p-gray">Sales This Year</p>
           </div>
         </div>
       </div>
@@ -82,10 +82,3 @@ function Sales() {
 }
 
 export default Sales;
-
-// <img
-// src={sendlogo}
-// alt="Send Logo"
-// className="button-icon"
-// style={{ marginRight: "8px" }}
-// />
