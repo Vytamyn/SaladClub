@@ -5,4 +5,22 @@
     height: 251px;
     margin-top: 32px;
     border-radius: 8px;
+    flex-direction: column;
+}
+
+.dashboard-drivers-header {
+    display: flex;
+    margin: 20px 24px 24px 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-driver-info {
+    display: flex;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.dashboard-driver-image {
+    margin-right: 16px;
 }

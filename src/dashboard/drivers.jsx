@@ -1,9 +1,27 @@
+import React from "react";
 import "./drivers.css";
+import driverData from "../assets/driverData.js";
 
 function Drivers() {
+  const displayedDrivers = driverData.slice(0, 3);
+
   return (
     <div className="dashboard-drivers">
-      <div></div>
+      <div className="dashboard-drivers-header">
+        <h2>Drivers</h2>
+        <button className="button-bordered">See all</button>
+      </div>
+      {displayedDrivers.map((driver, index) => (
+        <div className="dashboard-driver-info">
+          <div key={index} className="dashboard-driver-image">
+            <img src={driver.Image || personPlaceholder} alt={driver.Name} />
+          </div>
+          <div className="dashboard-drivers-text">
+            <p>{driver.Name}</p>
+            <p className="p-gray">{`${driver.Status}`}</p>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

@@ -12,7 +12,12 @@ h1 {
 h2 {
   font-weight: 300;
   font-size: 20px;
-  margin: 0.1px;
+  margin: 0.01px;
+}
+
+p {
+  font-size: 14px;
+  margin: 0.01px;
 }
 
 tr th {
@@ -127,17 +132,17 @@ input {
 
 .button-bordered {
   background-color: none;
-  border: 1px solid #2e2e2e;
+  border: 1px solid #949494;
   border-radius: 8px;
-  color: #2e2e2e;
+  color: #949494;
   cursor: pointer;
   font-family: Plus Jakarta Sans;
   font-size: 12px;
-  font-weight: bold;
   padding: 4px 12px;
   position: relative;
   user-select: none;
   vertical-align: middle;
   display: flex;
   height: 24px;
+  background: none;
 }
