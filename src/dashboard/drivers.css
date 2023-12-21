@@ -10,17 +10,25 @@
 
 .dashboard-drivers-header {
     display: flex;
-    margin: 20px 24px 24px 24px;
+    margin: 20px 24px 32px 24px;
     justify-content: space-between;
-    align-items: center;
 }
 
 .dashboard-driver-info {
     display: flex;
     margin-left: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
+    margin-right: 24px;
+    width: 304px;
+    align-items: center;
 }
 
 .dashboard-driver-image {
     margin-right: 16px;
+}
+
+.dashboard-vehicle-image {
+    margin-left: auto;
+    margin-right: 12px;
+    transform: scale(1.2);
 }

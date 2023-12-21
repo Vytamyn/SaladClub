@@ -1,10 +1,16 @@
+import React from "react";
 import "./map.css";
+import dashboardMap from "../img/dashboardMap.png";
 
 function Map() {
+  const handleClick = () => {
+    console.log("Map clicked!");
+  };
+
   return (
-    <div className="dashboard-map">
-      <div></div>
-    </div>
+    <a href="#" className="dashboard-map" onClick={handleClick}>
+      <img src={dashboardMap} alt="Dashboard Map" />
+    </a>
   );
 }
 

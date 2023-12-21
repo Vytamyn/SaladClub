@@ -20,6 +20,9 @@ function Drivers() {
             <p>{driver.Name}</p>
             <p className="p-gray">{`${driver.Status}`}</p>
           </div>
+          <div className="dashboard-vehicle-image">
+            <img src={driver.Vehicle} />
+          </div>
         </div>
       ))}
     </div>
