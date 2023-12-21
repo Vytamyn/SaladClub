@@ -31,8 +31,3 @@ function CurrentOffer() {
 }
 
 export default CurrentOffer;
-
-{
-  /* <img src="/src/img/sendlogo.png" 
-  alt="Send Logo" class="button-icon" style="margin-right: 8px;"></img> */
-}

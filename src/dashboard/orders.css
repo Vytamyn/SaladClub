@@ -5,4 +5,102 @@
     background-color: white;
     margin: 32px;
     border-radius: 8px;
+    flex-direction: column;
 }
+
+.orders-h2 {
+    display: flex;
+    margin: 24px;
+}
+
+.orders-icons {
+    display: flex;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.orders-ongoing {
+    display: flex;
+    margin-right: 67px;
+}
+
+.dashboard-icon-text {
+    display: flex;
+    margin-left: 8px;
+    flex-direction: column;
+
+}
+
+.dashboard-table {
+    display: flex;
+    width: 544px;
+    flex-direction: column;
+    margin-left: 24px;
+  }
+  
+  .table-header,
+  .table-row {
+    display: flex;
+  }
+
+  .table-header {
+    border-bottom: 1px solid #F1F1F1;
+    padding-bottom: 12px;
+  }
+
+  .table-row {
+    padding-top: 12px;
+  }
+  
+  
+  .table-restaurant {
+    margin-right: 24px;
+    width: 63px;
+  }
+  
+  .table-order {
+    margin-right: 134px;
+  }
+  
+  .table-order-id {
+    margin-right: 24px;
+  }
+  
+  .table-value {
+    margin-right: 41px;
+  }
+  
+  .table-eta {
+    margin-right: 24px;
+  }
+
+  .table-restaurant-body {
+    width: 63px;
+    margin-right: 24px;
+  }
+
+  .table-order-body {
+    width: 145px;
+    margin-right: 24px;
+  }
+
+  .table-order-id-body {
+    width: 48px;
+    margin-right: 24px;
+  }
+
+  .table-value-body {
+    width: 36px;
+    margin-right: 24px;
+  }
+
+  .table-eta-body {
+    width: 32px;
+    margin-right: 24px;
+  }
+
+  .table-contact-body {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+  }

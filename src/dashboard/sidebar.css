@@ -20,6 +20,7 @@
     align-items: center;
     color: #2e2e2e;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .sidebar-list .row:hover {
@@ -36,7 +37,7 @@
 .menu-icon {
     display: flex;
     justify-content: center;
-    padding-right: 8px;
+    padding-right: 11px;
 }
 
 .row {
