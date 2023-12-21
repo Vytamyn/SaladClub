@@ -6,7 +6,16 @@ import ordersIcon from "../img/ordersIcon.png";
 import data from "../assets/data";
 
 function Orders() {
-  console.log(data);
+  const ongoingCount = data.filter(
+    (order) => order.Status === "In-delivery"
+  ).length;
+  const deliveredCount = data.filter(
+    (order) => order.Status === "Delivered"
+  ).length;
+  const totalOrdersCount = data.length;
+
+  const displayedData = data.slice(-6);
+
   return (
     <div className="dashboard-orders">
       <div className="orders-h2">
@@ -16,21 +25,21 @@ function Orders() {
         <div className="orders-ongoing">
           <img src={ongoingIcon} />
           <div className="dashboard-icon-text">
-            <h2>48</h2>
+            <h2>{ongoingCount}</h2>
             <p className="p-gray">Ongoing</p>
           </div>
         </div>
         <div className="orders-ongoing">
           <img src={deliveredIcon} />
           <div className="dashboard-icon-text">
-            <h2>127</h2>
+            <h2>{deliveredCount}</h2>
             <p className="p-gray">Delivered</p>
           </div>
         </div>
         <div className="orders-ongoing">
           <img src={ordersIcon} />
           <div className="dashboard-icon-text">
-            <h2>175</h2>
+            <h2>{totalOrdersCount}</h2>
             <p className="p-gray">Orders</p>
           </div>
         </div>
@@ -48,22 +57,16 @@ function Orders() {
             </tr>
           </thead>
           <tbody>
-            <tr className="table-row">
-              <td className="table-restaurant-body">Canal St.</td>
-              <td className="table-order-body">2xCesar, 1xPasta</td>
-              <td className="table-order-id-body">JS7238</td>
-              <td className="table-value-body">$38</td>
-              <td className="table-eta-body">2:03s</td>
-              <td className="table-contact-body">A</td>
-            </tr>
-            <tr className="table-row">
-              <td className="table-restaurant-body">Canal St.</td>
-              <td className="table-order-body">2xCesar, 1xPasta</td>
-              <td className="table-order-id-body">JS7238</td>
-              <td className="table-value-body">$38</td>
-              <td className="table-eta-body">2:03s</td>
-              <td className="table-contact-body">A</td>
-            </tr>
+            {displayedData.map((order, index) => (
+              <tr key={index} className="table-row">
+                <td className="table-restaurant-body">{order.Restaurant}</td>
+                <td className="table-order-body">{order.Order.join(", ")}</td>
+                <td className="table-order-id-body">{order.OrderId}</td>
+                <td className="table-value-body">{order.Value}</td>
+                <td className="table-eta-body">{order.ETA}</td>
+                <td className="table-contact-body">{order.Driver}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
