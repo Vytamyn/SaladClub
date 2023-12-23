@@ -1,10 +1,11 @@
 import React from "react";
 import "./ordersPage.css";
+import Sidebar from "../assets/sidebar";
 
 function OrdersPage() {
   return (
-    <div>
-      <h2>Orders Page</h2>
+    <div className="main-frame">
+      <Sidebar />
     </div>
   );
 }

@@ -1,4 +1,5 @@
-import Sidebar from "./sidebar";
+import React from "react";
+import Sidebar from "../assets/sidebar";
 import "./dashboard.css";
 import Search from "./search";
 import Sales from "./sales";
