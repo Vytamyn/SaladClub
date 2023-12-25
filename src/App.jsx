@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Dashboard from "./dashboard/dashboard.jsx";
 import Login from "./login/Login.jsx";
-import OrdersPage from "./ordersPage/ordersPage.jsx";
+import OrdersPage from "./ordersPage/OrdersPage.jsx";
 import RestaurantsPage from "./RestaurantsPage/RestaurantsPage.jsx";
 import ProductsPage from "./ProductsPage/ProductsPage.jsx";
 import DriversPage from "./DriversPage/DriversPage.jsx";
