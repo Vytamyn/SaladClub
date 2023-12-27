@@ -25,4 +25,42 @@
     margin-top: 32px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    flex-direction: column;
+}
+
+.orders-page-ongoing {
+    display: flex;
+    margin: 24px 53px 24px 24px;
+}
+
+.orders-page-delivered {
+    display: flex;
+    margin: 24px 48px 24px 24px;
+}
+
+.orders-page-orders {
+    display: flex;
+    margin: 24px 63px 24px 24px;
+}
+
+.orders-page-today {
+    display: flex;
+    margin: 24px 34px 24px 24px;
+}
+
+.orders-page-month {
+    display: flex;
+    margin: 24px auto 24px 24px;
+}
+
+.orders-page-icons-text {
+    display: flex;
+    margin-left: 8px;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.orders-page-table-header {
+    display: flex;
+    margin: 24px;
 }
