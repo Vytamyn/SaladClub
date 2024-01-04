@@ -1,5 +1,6 @@
 import React from "react";
 import "./drivers.css";
+import { Link } from "react-router-dom";
 import driverData from "../assets/driverData.js";
 
 function Drivers() {
@@ -9,7 +10,9 @@ function Drivers() {
     <div className="dashboard-drivers">
       <div className="dashboard-drivers-header">
         <h2>Drivers</h2>
-        <button className="button-bordered">See all</button>
+        <Link to="/drivers" style={{ textDecoration: "none" }}>
+          <button className="button-bordered">See all</button>
+        </Link>
       </div>
       {displayedDrivers.map((driver, index) => (
         <div className="dashboard-driver-info">
