@@ -1,0 +1,51 @@
+.restaurants-map {
+    display: flex;
+    width: 384px;
+    height: 750px;
+    background: gray;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.restaurant-tabs-container {
+    overflow-y: auto;
+    height: 100vh; 
+    scrollbar-width: thin; 
+    scrollbar-color: transparent transparent; 
+    overflow: -moz-scrollbars-none; 
+    -ms-overflow-style: none; 
+  }
+ 
+.restaurant-tabs-container::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.restaurant-tabs-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.restaurants-tabs {
+    display: flex;
+    width: 544px;
+    height: 160px;
+    background-color: aquamarine;
+    margin: 0 32px 24px 32px;
+    border-radius: 8px;
+}
+
+.restaurants-tab-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.restaurants-tab-info-open {
+    display: flex;
+    margin-top: 17px;
+    margin-bottom: 24px;
+}
+
+.restaurants-info-buttons {
+    display: flex;
+}
