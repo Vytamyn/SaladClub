@@ -64,3 +64,86 @@
     display: flex;
     margin: 24px;
 }
+
+.orders-table-header {
+display: flex;
+width: 888px;
+margin-left: 24px;
+border-bottom: 1px solid #F1F1F1;
+padding-bottom: 12px;
+}
+
+.orders-header-restaurant {
+    margin-right: 54px;
+}
+
+.orders-header-order {
+    margin-right: 105px;
+}
+
+.orders-header-order-id {
+    margin-right: 24px;
+}
+
+.orders-header-client-name {
+    margin-right: 39px;
+}
+
+.orders-header-delivery-address {
+    margin-right: 62px;
+}
+
+.orders-header-value {
+    margin-right: 40px;
+}
+
+.orders-header-eta {
+    margin-right: 65px;
+}
+
+.orders-header-driver {
+    margin-right: 23px;
+}
+
+.orders-table-restaurant {
+    margin-left: 24px;
+    width: 115px;
+}
+
+.orders-table-order {
+    width: 140px;
+}
+
+.orders-table-order-id {
+    width: 73px;
+}
+
+.orders-table-client-name {
+    width: 110px;
+}
+
+.orders-table-delivery-addres {
+    width: 138px;
+}
+
+.orders-table-value {
+    width: 32px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: end;
+}
+
+.orders-table-eta {
+    width: 36px;
+    margin-left: 22px;
+    display: flex;
+    justify-content: end;
+}
+
+.orders-table-driver {
+    width: 60px;
+    margin-left: 40px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: end;
+}
