@@ -52,13 +52,17 @@ function RestaurantsTabs() {
                 className="button-black-bordered"
                 style={{ marginRight: "8px" }}
               >
-                <img src={phoneIcon} alt="Phone icon" />
+                <a href="tel:+1234567890">
+                  <img src={phoneIcon} alt="Phone icon" />
+                </a>
               </button>
               <button
                 className="button-black-bordered"
                 style={{ marginRight: "8px" }}
               >
-                <img src={mailIcon} alt="Mail icon" />
+                <a href="mailto:example@saladclub.com">
+                  <img src={mailIcon} alt="Mail icon" />
+                </a>
               </button>
             </div>
           </div>
