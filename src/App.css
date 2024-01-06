@@ -30,8 +30,25 @@ h3 {
   margin: 0.01px;
 }
 
+h4 {
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0.01px;
+}
+
 p {
   font-size: 14px;
+  margin: 0.01px;
+}
+
+.p-gray {
+  font-size: 12px;
+  color: #949494;
+  margin: 0.1px;
+}
+
+.p-small {
+  font-size: 12px;
   margin: 0.01px;
 }
 
@@ -60,12 +77,6 @@ tbody {
   align-items: center;
   font-size: 12px;
   margin-bottom: 18px;
-}
-
-.p-gray {
-  font-size: 12px;
-  color: #949494;
-  margin: 0.1px;
 }
 
 .font-black {
