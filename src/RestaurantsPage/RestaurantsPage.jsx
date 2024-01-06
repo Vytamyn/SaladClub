@@ -4,6 +4,7 @@ import "../assets/searchBar.css";
 import Sidebar from "../assets/sidebar";
 import SearchBar from "../assets/searchBar";
 import RestaurantsTabs from "./RestaurantsTabs";
+import SimpleMap from "./MainMap";
 
 function RestaurantsPage() {
   return (
@@ -15,7 +16,9 @@ function RestaurantsPage() {
         </div>
         <RestaurantsTabs />
       </div>
-      <div className="restaurants-map">Map Image</div>
+      <div className="restaurants-map">
+        <SimpleMap />
+      </div>
     </div>
   );
 }

@@ -6,25 +6,25 @@ import restaurantFour from "../img/restaurant4.png";
 const restaurantsData = [
   {
     Name: "SaladClub",
-    Location: "Canal St. NY",
+    Location: "Košice SK, Hlavná 102, Staré Mesto",
     Open: "10:00am - 9:00pm, Mon-Sat",
     Image: restaurantOne,
   },
   {
     Name: "SaladClub",
-    Location: "3rd Ave. NY",
+    Location: "Hlavná 37/68, Košice",
     Open: "10:00am - 9:00pm, Mon-Sat",
     Image: restaurantTwo,
   },
   {
     Name: "SaladClub",
-    Location: "Brodway, NY",
+    Location: "Masarykova 1667/2, Košice",
     Open: "10:00am - 9:00pm, Mon-Sat",
     Image: restaurantThree,
   },
   {
     Name: "SaladClub",
-    Location: "Madison Ave. NY",
+    Location: "Murgašova 1, Košice",
     Open: "10:00am - 9:00pm, Mon-Sat",
     Image: restaurantFour,
   },
